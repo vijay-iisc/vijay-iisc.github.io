@@ -24,7 +24,7 @@ span{
 .certificate-images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 10px;
     padding-top: 50px;
 }
@@ -45,7 +45,7 @@ p{
     font-size: 20px;
 }
 #hobby{
-    margin: 0 200PX 0 200PX;
+    margin: 0 0 0 0;
 }
 span{
     text-decoration: solid;
