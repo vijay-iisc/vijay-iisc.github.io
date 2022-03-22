@@ -9,6 +9,7 @@
   }
    #bio-Image{
       grid-area: 1/2/6/3;
+      /* padding-top: 30px; */
   } 
   #bio-text{
     margin-left: 100px;
