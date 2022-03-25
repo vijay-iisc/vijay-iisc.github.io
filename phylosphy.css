@@ -1,9 +1,16 @@
 *{  
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
 #vijay-image{
     padding-top:100px;
+}
+h1{
+    margin-left: 0;
+   text-align: start;
+}
+p{
+    font-size: 20px;
 }
 #certificate{
                 display: grid;
@@ -11,12 +18,7 @@
                 gap: 0 50px;
                 margin: 0 200PX 0 200PX;
             }
-h1{
-    font-size: 50px;
-}
-p{
-    font-size: 20px;
-}
+
 .certificate{
     margin: 0 200PX 0 200PX;
 }
