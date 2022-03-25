@@ -44,4 +44,63 @@
     text-decoration: none;
   }
 
+
+  /* contact form */
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#grid-for-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
  
+}
+
+#entry-text{
+  justify-self: center;
+} 
+input{
+  width: 700px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+/* input text{
+  font-size: 24px;
+} */
+textarea {
+  width: 700px;
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#submit-button{
+  background-color:#ffffff;
+  border: 2px solid #F28066;
+  cursor: pointer;
+  font-size: 20px;
+  text-align:center;
+  color: #F28066;
+  height: 64px;
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#submit-button:hover {
+  background-color:#F28066;
+  color:rgb(255, 255, 255);
+}
