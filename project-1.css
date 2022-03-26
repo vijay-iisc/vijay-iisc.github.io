@@ -2,10 +2,10 @@
 .project-1{
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(550px,1fr));
-  grid-template-rows: 1fr;
+  grid-template-rows:1fr;
   column-gap: 10px;
   background-color: #FFEEE7;
-  align-items: center;
+  /* align-items: center; */
   
   }
   #image-1{
@@ -39,7 +39,7 @@
     color:#ffffff;
     text-decoration: none;
   }
-  #about-project-1 >p
+  /* #about-project-1 >p
   {
   font-size: 24px;
   text-align: center;
@@ -50,20 +50,38 @@
   {
     text-align: center;
     font-size: 40px;
+  } */
+
+  /* #brief-project-1
+  {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(550px,1fr));
+  grid-template-rows:1fr;
+  column-gap: 100px;
+  background-color: #FFEEE7;
+  margin: 0 100px 0 100px;
+  } */
+  #brief-project-1{
+    margin: 0 100px 0 100px;
+    text-align: center;
   }
+  #rasoi{
+    font-size: 52px;
+    text-align: center;
+  }
+  
  #project-overview-container{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 1fr;
-  column-gap: 10px;
+  grid-template-columns: repeat(auto-fill,minmax(550px,1fr));
+  grid-template-rows:1fr;
+  column-gap: 100px;
   background-color: #FFEEE7;
   margin: 0 100px 0 100px;
  }
  #left-column{
-   
-   margin-left: 200px;
+   margin-left: 100px;
  }
  #right-column{
   justify-self: center;
   margin-top: 50px; 
-}
+} 
