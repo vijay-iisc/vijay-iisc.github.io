@@ -1,19 +1,20 @@
 #bio {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(auto-fill, minmax(550px,1fr));
+    grid-template-rows: 1fr;
     gap: 10px 50px;
-    /* border: 1px solid red; */
     font-size: 30px;
     background-color: rgb(255, 255, 255);
+    align-items: center;
+   
   }
    #bio-Image{
-      grid-area: 1/2/6/3;
-      /* padding-top: 30px; */
+      justify-self: flex-start;
   } 
   #bio-text{
     margin-left: 100px;
-    grid-area:2/1/5/2;
+    /* grid-area:1/1/2/2; */
+    /* border: 1px solid rgb(0, 0, 0); */
   }
   #paragraph0{
     font-size: 25PX;

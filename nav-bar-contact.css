@@ -1,16 +1,15 @@
 
  .nav-bar-contact {
     display: grid;
-    grid-template-rows:50px;
-    grid-template-columns: 1100px auto auto auto;
-    column-gap:10px;
+    grid-template-rows:56px;
+    grid-template-columns: 4fr auto auto auto;
+    column-gap:50px;
     border-bottom: 1px solid grey;
     background-color: white;
+    align-items: center;
   }
   .nav-bar-contact {
-    padding:25px 0 0 0;
     font-size: 20px;
-    text-align:center;
     align-content: center;
   }
  
