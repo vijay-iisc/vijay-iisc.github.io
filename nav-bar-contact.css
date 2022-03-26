@@ -45,26 +45,23 @@
 
 
   /* contact form */
-h1 {
-    font-family: 'Poppins', sans-serif, 'arial';
-    font-weight: 600;
-    font-size: 72px;
-    color: rgb(32, 32, 32);
-    text-align: center;
-    margin-top: 100px;
-}
+
 
 #grid-for-form{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1fr,minmax(550px,1fr));
   grid-template-rows: 1fr;
   row-gap: 10px;
- 
+  justify-items: center;
+}
+#say-hi {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: rgb(32, 32, 32);
+  margin-top: 100px;
 }
 
-#entry-text{
-  justify-self: center;
-} 
 input{
   width: 700px;
   height: 40px;
@@ -92,10 +89,6 @@ textarea {
   color: #F28066;
   height: 64px;
   width: 200px;
-  align-self: center;
-  justify-self: center;
-  align-items: center;
-  margin-bottom: 100px;
 }
 
 #submit-button:hover {
