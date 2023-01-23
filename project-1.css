@@ -81,6 +81,15 @@
   background-color: #FFEEE7;
   margin: 0 100px 0 100px;
  }
+ #project-overview-container1{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(550px,1fr));
+  grid-template-rows:1fr;
+  column-gap: 100px; */
+  padding-bottom: 20px;
+  background-color: #FFEEE7;
+  margin: 0 100px 0 100px;
+ }
  #left-column{
    margin-left: 100px;
  }

@@ -1,9 +1,9 @@
 
 .project-3{
-  display: grid;
-  grid-template-columns:repeat(auto-fill, minmax(550px,1fr));
-  grid-template-rows: 1fr;
-  column-gap: 10px;
+  /* display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(550px,1fr)); */
+  /* grid-template-rows: 1fr;
+  column-gap: 10px; */
   background-color: #FFEEE7;
   align-items: center;
 }
@@ -31,5 +31,23 @@
   #portfololio-as-image{
     margin: 0 100px 0 100px;
     width: 80vw;
+  }
+  .link>a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 800;
+    position: relative;
+    left: 4%;
+  }
+  .text{
+    position: relative;
+    top: 20px;
+    left: 4%;
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 800;
+    /* margin-left: 33px; */
   }
  
